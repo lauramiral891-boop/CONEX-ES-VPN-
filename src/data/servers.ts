@@ -1,0 +1,102 @@
+import { VpnServer } from '../types/vpn';
+
+export const INITIAL_SERVERS: VpnServer[] = [
+  {
+    id: 'ao-luanda-unitel',
+    name: 'Luanda — Unitel Direct Edge',
+    country: 'Angola',
+    countryCode: 'AO',
+    city: 'Luanda (Talatona)',
+    flag: '🇦🇴',
+    ip: '197.149.201.12',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 18,
+    load: 34,
+    isRecommended: true,
+    operatorOptimized: 'UNITEL',
+    isFavorite: true
+  },
+  {
+    id: 'ao-luanda-africell',
+    name: 'Luanda — Africell Turbo Node',
+    country: 'Angola',
+    countryCode: 'AO',
+    city: 'Luanda (Kinaxixi)',
+    flag: '🇦🇴',
+    ip: '196.11.238.45',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 21,
+    load: 42,
+    isRecommended: true,
+    operatorOptimized: 'AFRICELL',
+    isFavorite: true
+  },
+  {
+    id: 'za-jnb-01',
+    name: 'Joanesburgo — SADC Low Latency',
+    country: 'África do Sul',
+    countryCode: 'ZA',
+    city: 'Johannesburg (Teraco)',
+    flag: '🇿🇦',
+    ip: '129.232.144.10',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 46,
+    load: 58,
+    isRecommended: true
+  },
+  {
+    id: 'pt-lis-01',
+    name: 'Lisboa — Lusofonia Transit',
+    country: 'Portugal',
+    countryCode: 'PT',
+    city: 'Lisboa (Equinix LS1)',
+    flag: '🇵🇹',
+    ip: '185.11.164.20',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 112,
+    load: 61
+  },
+  {
+    id: 'br-sao-01',
+    name: 'São Paulo — Cabo SACS Atlântico',
+    country: 'Brasil',
+    countryCode: 'BR',
+    city: 'São Paulo (SP4)',
+    flag: '🇧🇷',
+    ip: '177.54.148.9',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 124,
+    load: 39
+  },
+  {
+    id: 'de-fra-01',
+    name: 'Frankfurt — DE-CIX Backbone',
+    country: 'Alemanha',
+    countryCode: 'DE',
+    city: 'Frankfurt (Main)',
+    flag: '🇩🇪',
+    ip: '159.69.112.5',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 129,
+    load: 72
+  },
+  {
+    id: 'us-nyc-01',
+    name: 'Nova Iorque — Tier 1 Anycast',
+    country: 'Estados Unidos',
+    countryCode: 'US',
+    city: 'New York (111 8th Ave)',
+    flag: '🇺🇸',
+    ip: '198.51.100.88',
+    port: 51820,
+    protocol: 'WireGuard',
+    ping: 145,
+    load: 48
+  }
+];

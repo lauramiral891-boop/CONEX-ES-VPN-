@@ -1,0 +1,6 @@
+{
+  "name": "Conexões VPN",
+  "description": "Aplicação Android e Web Conexões VPN com motor VpnService nativo, WireGuard, dashboard com tema escuro e detalhes ciano, scanner SNI inteligente para Unitel e Africell, diagnóstico e monitorização de tráfego real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

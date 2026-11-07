@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Conexões VPN Adaptive Icon: Glowing Key & Cloud Emblem -->
+    <!-- Stylized Cloud -->
+    <path
+        android:fillColor="#1500e5ff"
+        android:strokeColor="#00e5ff"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M78,66 H40 c-11,0 -20,-9 -20,-20 c0,-10 7.5,-18.5 17.5,-19.8 c3,-8 10.5,-13.2 19.5,-13.2 c11.5,0 21,9 21.5,20.5 c8,1 14.5,8 14.5,16.5 C93,59.5 86.5,66 78,66 Z" />
+
+    <!-- Embedded Key -->
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,42 L68,56" />
+
+    <path
+        android:strokeColor="#00e5ff"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M63,51 L67,47" />
+
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="3"
+        android:pathData="M48,36 A6,6 0 1,1 36,48 A6,6 0 1,1 48,36" />
+</vector>

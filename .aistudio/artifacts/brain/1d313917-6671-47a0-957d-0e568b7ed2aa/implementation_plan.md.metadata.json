@@ -1,0 +1,6 @@
+{
+  "summary":  "Plano de implementação revisto e expandido para o Motor Hacker AI de SNI, VPN, Conectividade Avançada e Zero-Rating. Preserva integralmente o projeto Conexões VPN existente, detalha os módulos em TypeScript/React, Node.js/Express, Kotlin/Java Android SDK e WireGuard, e mapeia todos os ficheiros a criar e modificar.",
+  "updatedAt":  "2026-11-07T10:44:42.207900456Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
